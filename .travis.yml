@@ -4,6 +4,6 @@ python:
 install:
 - pip install flake8
 before_script:
-- flake8 test.py
+- flake8 Test.py
 script:
-- python test.py test
+- python Test.py test
